@@ -1,4 +1,4 @@
-For detailed description read "the post":http://scraping.pro/how-to-scrape-csv-data-files/
+For detailed description read [the post](http://scraping.pro/how-to-scrape-csv-data-files/)
 
 # How to scrape CSV data files
 
@@ -6,7 +6,7 @@ This short post in to guide you in how to scrape CSV data files. You may ask, wh
 
 Python’s CSV library is well able to do a lot of the work for you. Another handy tool is the ScraperWiki toolset and library. So, even if you don’t have much ability in programing, you can adopt a scraper, adjust it for your situation and get data scraped and saved into SQLite database in ScraperWiki for further download. Also you could generate a view from your data scraped.
 
-First of all I got a CSV scrape guide from ScraperWiki: "here":https://classic.scraperwiki.com/scrapers/csv_files_scraper/.
+First of all I got a CSV scrape guide from ScraperWiki: [here](https://classic.scraperwiki.com/scrapers/csv_files_scraper/).
 
 ## Basic steps
 
