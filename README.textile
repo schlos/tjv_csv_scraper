@@ -1,0 +1,1 @@
+For detailed description read "the post":http://extract-web-data.com/how-to-scrape-csv-data-files/
