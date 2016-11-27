@@ -48,3 +48,5 @@ for record in reader:
    #for scraperwiki only:
    scraperwiki.sqlite.save(['Value'], record)
 ```
+
+Another [scraper guide](https://classic.scraperwiki.com/docs/python/python_csv_guide/).
