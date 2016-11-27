@@ -1,6 +1,6 @@
 For detailed description read "the post":http://scraping.pro/how-to-scrape-csv-data-files/
 
-#How to scrape CSV data files
+# How to scrape CSV data files
 
 This short post in to guide you in how to scrape CSV data files. You may ask, why do we need this scrape if those data are already in files? The answer is that you might need to spend quite a lot of time in downloading the files into one place and sorting or merging them.
 
@@ -8,7 +8,7 @@ Python’s CSV library is well able to do a lot of the work for you. Another han
 
 First of all I got a CSV scrape guide from ScraperWiki: "here":https://classic.scraperwiki.com/scrapers/csv_files_scraper/.
 
-##Basic steps
+## Basic steps
 
 Scrape the target web file into variable ‘data‘ by the url of the file:
 
