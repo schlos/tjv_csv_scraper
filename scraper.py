@@ -12,4 +12,4 @@ for record in reader:
     print record 
     #for scraperwiki only:
     #scraperwiki.sqlite.save(['Value'], record)
-    scraperwiki.sqlite.save(unique_keys=['OIB', 'Rb.'], data=record)
+    #scraperwiki.sqlite.save(unique_keys=['OIB', 'Rb.'], data=record)
