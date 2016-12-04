@@ -49,4 +49,4 @@ for record in reader:
    scraperwiki.sqlite.save(['Value'], record)
 ```
 
-Another [scraper guide](https://classic.scraperwiki.com/docs/python/python_csv_guide/).
+Another [scraper guide](https://classic.scraperwiki.com/docs/python/python_csv_guide/), and [another](https://github.com/scraperwiki/code-scraper-in-browser-tool/wiki/CSV-reading-guide-(Python)).
