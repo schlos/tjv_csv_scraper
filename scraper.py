@@ -8,7 +8,7 @@ data = data.splitlines()
 reader = csv.DictReader(data)
 
 for row in reader:
-    scraperwiki.sqlite.save(unique_keys=["OIB"], data=row)
+    scraperwiki.sqlite.save(unique_keys=[""], data=row)
 
     #record['Name'] = record['Name'].decode("cp1252")
     #print "%s, %s last updated on %s" % (row[2], row[3], row[16])
