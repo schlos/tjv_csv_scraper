@@ -15,7 +15,7 @@ reader = csv.DictReader(data)
 for row in reader:
     print row
     #scraperwiki.sqlite.save(unique_keys, data=row)
-    scraperwiki.sqlite.save(unique_keys=['Rb.'], data=row)
+    scraperwiki.sqlite.save(['Rb.'], row)
     #scraperwiki.sqlite.save(row[1], data=row)
 
     #record['Name'] = record['Name'].decode("cp1252")
