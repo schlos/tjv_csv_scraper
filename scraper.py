@@ -1,8 +1,8 @@
 import csv
 import scraperwiki
 
-#url = 'http://tjv.pristupinfo.hr/?sort=1&page=1&download'
-url = 'http://schlos.net/codeforcroatia.org/tijela-2019-07-17.csv'
+url = 'http://tjv.pristupinfo.hr/?sort=1&page=1&download'
+#url = 'http://schlos.net/codeforcroatia.org/tijela-2019-07-17.csv'
 
 data = scraperwiki.scrape(url)
 data = data.splitlines()
