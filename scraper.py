@@ -11,6 +11,8 @@ url = 'https://github.com/schlos/data-general/raw/master/tijela-2017-test-comma.
 data = scraperwiki.scrape(url)
 data = data.splitlines()
 reader = csv.DictReader(data)
+conn = GetSqliteConnection(db_path)
+conn.text_factory = lambda x: unicode(x, 'utf-8', 'ignore')
 
 for row in reader:
     print row
