@@ -6,7 +6,7 @@ import scraperwiki
 #url = 'http://schlos.net/codeforcroatia.org/tijela-2019-07-17.csv'
 
 # Comma separated CSV:
-url = 'http://schlos.net/codeforcroatia.org/tijela-2017-test-comma.csv'
+url = 'https://github.com/schlos/data-general/raw/master/tijela-2017-test-comma.csv'
 
 data = scraperwiki.scrape(url)
 data = data.splitlines()
