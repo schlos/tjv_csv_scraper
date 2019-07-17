@@ -11,7 +11,8 @@ reader = csv.DictReader(data)
 for row in reader:
     print row
     #scraperwiki.sqlite.save(unique_keys, data=row)
-    scraperwiki.sqlite.save(['OIB'], row)
+    #scraperwiki.sqlite.save(['OIB'], row)
+    scraperwiki.sqlite.save(unique_keys=['OIB', 'Rb.'], data=row)
 
     #record['Name'] = record['Name'].decode("cp1252")
     #print "%s, %s last updated on %s" % (row[2], row[3], row[16])
